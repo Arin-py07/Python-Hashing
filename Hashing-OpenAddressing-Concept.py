@@ -1,4 +1,4 @@
-class MyHash:
+class TestHash:
     def __init__(self, c):
         self.cap = c
         self.table = [-1] * c
@@ -48,7 +48,7 @@ class MyHash:
         return False
 
 
-h = MyHash(7)
+h = TestHash(7)
 h.insert(70)
 h.insert(71)
 h.insert(9)
