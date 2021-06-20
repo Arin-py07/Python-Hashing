@@ -1,0 +1,13 @@
+#Chaining Concept :
+
+1. Hash table never fills.
+2. Less sensitive to hash functions.
+3. Poor cache management.
+4. Extra spaces ocdupied for linked.
+
+#Open Addressing Concept :
+
+1. Table may become full, and rising became mandatetory.
+2. Extra care required for Clustering - Quuardratic hashing, Double hashing Concept.
+3. Cache friendly.
+4. Extra-spaces might be needed to achive same performance as chaining concept.
