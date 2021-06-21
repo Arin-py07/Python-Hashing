@@ -25,3 +25,18 @@ class Solution:
                 count +=1
                 
         return count
+  ---------------------------------------------------------------------------------------------    
+Input:
+n = 10
+arr[] = {1,1,2,2,3,3,4,5,6,7}
+Output: 4 5 6 7
+
+def printNonRepeated(self,arr,n):
+        res=[]
+        for i in arr:
+            if arr.count(i)==1:
+                res.append(i)
+        return res
+               
+  
+
