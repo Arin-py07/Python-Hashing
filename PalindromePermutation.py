@@ -6,7 +6,7 @@ Output : False
   
 Solution:
   
-from Collection import Counter #Counter is a subclass of Dictionary.
+from collection import Counter #Counter is a subclass of Dictionary.
 
 def isPalPer(s):
   cnt = Counter(s)
